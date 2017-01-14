@@ -12,6 +12,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r9" />
+           
+  <remote name="teamsubstratum"
+           fetch="https://github.com/TeamSubstratum"
+           review="review.projektsubstratum.com" />         
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
