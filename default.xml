@@ -17,13 +17,8 @@
            fetch="https://github.com/TeamSubstratum"
            review="review.projektsubstratum.com" />     
            
-  <remote  name="rr-oms"
-	   fetch="https://github.com/ShivamKumarJha"
-	   revision="nougat-oms" />             
-
   <remote  name="losoms"
-	   fetch="https://github.com/LOSOMS"
-	   revision="cm-14.1-oms" />  
+	   fetch="https://github.com/LOSOMS" />  
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
@@ -32,7 +27,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" remote="losoms">
+  <project path="build" name="LineageOS/android_build" remote="losoms" revision="cm-14.1-oms">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
