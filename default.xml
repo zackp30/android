@@ -27,7 +27,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" remote="losoms" revision="cm-14.1-oms">
+  <project path="build" name="android_build" remote="losoms" revision="cm-14.1-oms">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
